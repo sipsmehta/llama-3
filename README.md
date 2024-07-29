@@ -69,6 +69,12 @@ This project is a web-based chatbot powered by Llama 3.1 405B and FastAPI. The c
 - **Response**:
   - `response`: Chatbot's response
 
+## Preview
+- **Landing Page**:
+  ![image](https://github.com/user-attachments/assets/44a34159-72d7-4024-8b6a-093583b12eb3)
+- **Main Chat Page**:
+  <img width="1438" alt="image" src="https://github.com/user-attachments/assets/02e846db-939b-4026-9ea2-18cd5be2abfe">
+  
 
 ## Customization
 
