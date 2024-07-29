@@ -46,7 +46,7 @@ This project is a web-based chatbot powered by Llama 3.1 405B and FastAPI. The c
 1. **Start the FastAPI server**:
 
     ```bash
-    uvicorn main:app --reload
+    uvicorn app:app --reload
     ```
 
     The server will start at `http://127.0.0.1:8000`.
@@ -62,27 +62,18 @@ This project is a web-based chatbot powered by Llama 3.1 405B and FastAPI. The c
 
 - **Method**: GET
 - **Query Parameters**:
-  - `api_key`: OpenAI API Key
+  - `api_key`: Fireworks API Key
   - `prompt`: User's message
   - `history`: Optional conversation history
 
 - **Response**:
   - `response`: Chatbot's response
 
-## Example Usage
-
-1. **Send a message**:
-
-    ![Send a message](screenshot-send-message.png)
-
-2. **Receive a response**:
-
-    ![Receive a response](screenshot-receive-response.png)
 
 ## Customization
 
-- **Modify Frontend**: Update `index.html` and `chat.html` in the `templates` directory.
-- **Modify Backend**: Update `main.py` for backend logic.
+- **Modify Frontend**: Update `landing.html` and `chat.html` in the `templates` directory.
+- **Modify Backend**: Update `app.py` for backend logic.
 
 ## Contributing
 
