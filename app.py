@@ -46,7 +46,7 @@ async def chat(api_key: str = Query(...), prompt: str = Query(...), history: Opt
         try:
             llm = ChatOpenAI(
                 model="accounts/fireworks/models/llama-v3p1-405b-instruct",
-                openai_api_key=api_key, # meNKAGlMJ4spXr2iFR2yw06K4Z7m04GNl0sjK8iZ9OcYJrTM
+                openai_api_key=api_key, 
                 openai_api_base="https://api.fireworks.ai/inference/v1"
             )
             app.state.conversation = ConversationChain(
