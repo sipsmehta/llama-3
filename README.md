@@ -24,7 +24,7 @@ This project is a web-based chatbot powered by Llama 3.1 405B and FastAPI. The c
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/llama-chatbot.git
+    git clone https://github.com/sipsmehta/llama-chatbot.git
     cd llama-chatbot
     ```
 
